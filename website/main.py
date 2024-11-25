@@ -1,5 +1,9 @@
 from drafter import *
 from dataclasses import dataclass
+
+hide_debug_information()
+set_website_title("Your Website Title")
+set_website_framed(True)
 @dataclass
 class State:
     default_name: str
