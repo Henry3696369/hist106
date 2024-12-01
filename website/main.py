@@ -448,7 +448,7 @@ def chapter3_7(state):
                         '''"How can we face violence when we advocates of nonviolence?" You ask yourself.''',
                         "What are you going to do?",
                         Button("Give up", chapter3_8),
-                        Button("Continue Martin's legacy", ending7)])
+                        Button("Continue the legacy of Martin", ending7)])
 @route
 def ending7(state):
     state.ending_str += "g"
