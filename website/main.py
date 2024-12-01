@@ -185,7 +185,7 @@ def chapter1_6(state: State) -> Page:
     return Page(state, ["You thought of the death of your father, knowing that in this era, even making eye contact with them might be considered as a crime.",
                         "You lower your head and continue walking forward.",
                         "You head to the ...",
-                        Button("John's farm", ending3),
+                        Button("""John's farm""", ending3),
                         Button("The balck church", chapter1_7)])
 
 @route
@@ -349,7 +349,7 @@ def chapter3_1(state):
                         "Your heart is burning with anger.",
                         Image("anger.jpeg", 500, 500),
                         "Wher do you want to go?",
-                        Button("John's Farm", chapter3_2),
+                        Button("""John's Farm""", chapter3_2),
                         Button("The black church", ending6)])
 @route
 def chapter3_2(state):
