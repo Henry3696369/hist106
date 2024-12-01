@@ -4,7 +4,6 @@ from dataclasses import dataclass
 hide_debug_information()
 set_website_title("The life")
 set_website_framed(True)
-
 @dataclass
 class State:
     default_name: str
@@ -196,11 +195,11 @@ def ending3(state: State) -> Page:
                         "You did not know where to go, but you decided to tell John that you were leaving.",
                         "After all, to some extent, he was the one who saved you.",
                         '''"You want to leave?", after hearing your plan, John became angry.''',
-                        '''"I saved your ass and now you want to leave?"''',
-                        '''"I have taken care of you all the time, and now, when you are capable of doing the most work, you want to leave?"''',
+                        '"I saved your ass and now you want to leave?"',
+                        '"I have taken care of you all the time, and now, when you are capable of doing the most work, you want to leave?"',
                         '''"Who is going to do the work for my farm? You selfish traitor.",
                         "Now you knew the source of the fear in your heart. You did not want to argue with him, and you turned back to walk away."''',
-                        '''"After all these years of feeding you, now you just walk away?", John shouted hysterically.''',
+                        '"After all these years of feeding you, now you just walk away?", John shouted hysterically.',
                         "Then, you heard the sound of a gunshot, and after that, everthing went balck...",
                         Image("gun.jpeg", 500, 500),
                         "John told the police that you had stolen money from him, and then everything vanished as if it had never happened.",
@@ -617,5 +616,6 @@ def secret_ending(state):
                             
                             
 
-start_server(State("James", "1James", ""))
+start_server(State("James", "James", ""))
+
 
