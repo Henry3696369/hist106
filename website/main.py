@@ -17,7 +17,8 @@ def index(state: State) -> Page:
                         "Prof. Dr. Gregory Hargreaves",
                         "Heng Luo",
                         "Story Game: The life",
-                        Image("life.jpeg", 500, 500),
+                        Image("23.jpeg", 500, 500),
+                        Image("1.jpeg", 500, 500),
                         "<br>",
                         Button("Start the game", begin),
                         Button("Achievements", achieve)])
@@ -79,7 +80,8 @@ def achieve(state: State) -> Page:
                         ending7,
                         ending8,
                         ending9,
-                        secret])
+                        secret,
+                        Image("The life.jpeg", 500, 500)])
 
 
 @route
