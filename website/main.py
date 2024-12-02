@@ -81,7 +81,7 @@ def achieve(state: State) -> Page:
                         ending8,
                         ending9,
                         secret,
-                        Image("The life.jpeg", 500, 500)])
+                        Image("life.jpeg", 500, 500)])
 
 
 @route
