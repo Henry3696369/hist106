@@ -187,6 +187,8 @@ def chapter1_6(state: State) -> Page:
     return Page(state, ["You thought of the death of your father, knowing that in this era, even making eye contact with them might be considered as a crime.",
                         "You lower your head and continue walking forward.",
                         "You head to the ...",
+                        Image("downtown2.jpeg", 500, 500),
+                        "<br>",
                         Button("The farm of John", ending3),
                         Button("The balck church", chapter1_7)])
 
